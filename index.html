@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Christine Samarchi</title>
+    <link rel="icon" type="image/png" sizes="32x32" type="image/png"
+      href="favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles  -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HIGHCHARTS JS  -->
+    <script src="https://code.highcharts.com/stock/highstock.src.js"></script>
+  </head>
+
+
+  <body>
+<!--  NAV/LANDING PAGE=======================================-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar">
+        <a class="navbar-brand active" href="#particles-js"><strong>Christine</strong></a>
+        <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto" id="nav-ul">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+
+<!-- LANDING PAGE -->
+      <div id="welcome" class="view fadeIn" >
+        <div class="containsWelcome">
+          <h1>Christine Samarchi</h1>
+          <h5> FULLSTACK DEVELOPER </h5>
+          <div>
+            <a href="https://twitter.com/CSamarchi" class="social" target="_blank"><i class="fa fa-twitter fa-2x"> </i></a>
+            <a href="https://github.com/csamarchi" class="social" target="_blank"><i class="fa fa-github-alt fa-2x"> </i></a>
+            <a href="https://www.linkedin.com/in/christinesamarchi/" class="social" target="_blank"><i class="fa fa-linkedin fa-2x"> </i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+<!-- ABOUT SECTION ==========================================-->
+      <section id="about" class="container wow fadeIn">
+        <h2 class="font-weight-bold text-center">About Me</h2>
+      </section>
+
+      <section class="container wow fadeIn">
+        <p>My name is Christine Samarchi. I'm a full stack web developer based in Austin, TX. Ever since I was little,
+          I always enjoyed making things for people to admire. My goal is to gain as much experience in the tech world
+          and I would love to make people's dreams come to life through web design. I'm currently looking for my next
+          project and would love to hear from any like-minded people.
+
+        <p>My other passions in life include: food & cooking, my baby dachshund Ollie, and yoga!</p>
+      </section>
+
+<!-- DEVELOPMENT SECTION ====================================== -->
+      <section id="portfolio" class="view">
+        <div id="Development">
+          <h2 id="portfolioText" class="font-weight-bold text-center wow fadeIn">My Projects</h2>
+        </div>
+      </section>
+
+      <section class="container">
+  <!-- dev img divs -->
+        <div class="row">
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX clicked-dev-img" id="proj1" style="background-image: url('dev-img/loteria2.png');">
+            <div class="mask flex-center">
+              <h3 class="dev-text">Project</h3>
+            </div>
+          </div>
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj2" style="background-image: url('dev-img/gymrat1.png');">
+            <div class="mask flex-center">
+              <h3 class="dev-text">Project</h3>
+            </div>
+          </div>
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj3" style="background-image: url('dev-img/travel1.png'); ">
+            <div class="mask flex-center">
+              <h3 class="dev-text">Project</h3>
+            </div>
+          </div>
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj4" style="background-image: url('dev-img/connexus1.png'); ">
+            <div class="mask flex-center">
+              <h3 class="dev-text">Project</h3>
+            </div>
+          </div>
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj5" style="background-image: url('dev-img/blue.png');">
+            <div class="mask flex-center">
+              <h3 class="dev-text">Project</h3>
+            </div>
+          </div>
+        </div>
+  <!-- dev img texts -->
+        <div class="showText">
+          <div class="container clickedText" id="p1-txt">
+            <h3>Loteria</h3>
+            <p><strong>Technologies:</strong> HTML5, CSS3, JavaScript, jQuery</p>
+            <p><strong>Deployment:</strong> GitHub Pages</p>
+            <p>A multi-player game that resembles Bingo, designed and created by myself. Players can choose the number of boards they want generated for the game. An algorithm shuffles the images on the board and the deck of cards at the start of each game. The game announces the winner once a player blacks out their board.</p>
+            <a href="https://jnm2377.github.io/La-Loteria/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/jnm2377/La-Loteria" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
+          </div>
+
+          <div class="container" id="p2-txt">
+            <h3>GymRat</h3>
+            <p><strong>Technologies:</strong> Node.js, Express, EJS, MongoDB, JavaScript, HTML5, CSS3, Bootstrap</p>
+            <p><strong>Deployment:</strong> Heroku</p>
+            <p>A multi-page web app that is both a social network for bodybuilders and a workout tracker application. The backend utilizes Mongoose and the frontend utilizes EJS. I created the backend models based off of my own knowlegde of lifting.</p>
+            <a href="https://gym-rat-workout-tracker.herokuapp.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/jnm2377/Workout_Tracker_App" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
+          </div>
+
+          <div class="container" id="p3-txt">
+            <h3>XCursion</h3>
+            <p><strong>Technologies:</strong> Node.js, Express, Angular.js, MongoDB, jQuery, HTML5, CSS3</p>
+            <p><strong>Deployment:</strong> Heroku</p>
+            <p>A single-page web app with an Express backend and Angular frontend. This app, which tracks the places you've traveled to or want to go to, was a group project. Most of my work was focused on the frontend side, styling our pages. However, I created our "places" model and routes for the backend.</p>
+            <a href="https://xcursion.herokuapp.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/jnm2377/travel_tracker-1" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
+          </div>
+
+          <div class="container" id="p4-txt">
+            <h3>Connexus</h3>
+            <p><strong>Technologies:</strong> Ruby on Rails, PostgreSQL, Node.js, Express, Angular.js, HTML5, CSS3</p>
+            <p><strong>Deployment:</strong> Heroku</p>
+            <p>A single-page web app with a Rails backend and an Angular/Express frontend. This app is a community board forum, also built as a group project. For the backend, I created our models and routes - excluding authentication. On the front end, I worked on getting full CRUD with our html forms and http requests.</p>
+            <a href="https://entertheconnexus.herokuapp.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/jnm2377/community_app_frontend" target="_blank"><button type="button" class="btn btn-primary">View Frontend GitHub</button></a>
+            <a href="https://github.com/jnm2377/connexus-api" target="_blank"><button type="button" class="btn btn-primary">View Backend GitHub</button></a>
+          </div>
+
+          <div class="container" id="p5-txt">
+            <h3>Blue</h3>
+            <p><strong>Technologies:</strong> Node.js, Express, Angular.js, MongoDB, Chart.js, HTML5, CSS3, Bootstrap</p>
+            <p><strong>Deployment:</strong> Heroku</p>
+            <p>A single-page web app with an Express backend and an Angular frontend. I created this app because of my passion for health, but mostly because of my <b>extreme</b> love for data visualization. I wanted to design an app that not only tracked how much water you're drinking on a daily basis, but also helped you visualize it.</p>
+            <a href="https://blueagua.herokuapp.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/jnm2377/Blue-App" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Animation on scroll -->
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+    <!-- My own jQuery event listeners -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

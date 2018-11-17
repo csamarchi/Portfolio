@@ -1,0 +1,205 @@
+/* Your custom styles */
+html,
+body,
+header,
+#welcome {
+    height: 100%;
+}
+
+
+
+#welcome{
+  width: 100%;
+  height: 100%;
+  background-color: #6d9eeb;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-toggler > span{
+  color: #0275d8;
+}
+
+.top-nav-collapse {
+    background-color: #edf8b1;
+}
+
+.containsWelcome {
+  position: absolute;
+  padding: 20px;
+  color: #edf8b1;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.offer {
+  margin: 40px auto;
+}
+
+#portfolio, #design, #artwork {
+  height: 200px;
+  /* background-attachment: fixed; */
+  margin: 0;
+}
+
+
+
+#portfolioText, #artText, #designText {
+  margin: 40px auto;
+  color: #edf8b1;
+  position: relative;
+  top: 50%;
+  transform: translateY(-80%);
+}
+
+.font-weight-bold {
+  font-size: 40px;
+}
+
+.row {
+  margin: 10px auto;
+}
+
+
+.dev-img {
+  background-attachment: fixed;
+  background-position: center;
+  height: 150px;
+  background-size: auto 50%;
+  margin: auto;
+}
+
+.dev-text {
+  color: #edf8b1;
+}
+
+.showText {
+  margin: 50px auto;
+}
+
+.clickedText {
+  height: 270px;
+}
+
+#p2-txt, #p3-txt, #p4-txt, #p5-txt {
+  display: none;
+}
+
+.clicked-dev-img {
+  border-bottom: 5px solid #0275d8;
+}
+
+.modal-header {
+  height: 150px;
+}
+
+.modalImg {
+  max-width: 370px;
+  max-height: 500px;
+  margin: 10px auto;
+}
+
+.modal-content {
+  height: 100%;
+  overflow: scroll;
+}
+
+#Development {
+  margin: 0;
+  background-color: #6d9eeb;
+  height: 200px;
+}
+
+#contact {
+  border: 1px solid #090b20;
+  background: #6d9eeb;
+  height: 200px;
+  margin: 0;
+  color: white;
+  padding: 20px 0;
+}
+
+#contactMe {
+  margin-top: 20px;
+}
+
+.social {
+  margin: auto 10px;
+}
+
+footer > .container > .row {
+  padding-top: 50px;
+  border: 1px solid transparent;
+}
+
+input, textarea {
+  margin: 0 0 10px 0;
+  color: #edf8b1;
+}
+
+textarea {
+  padding: 10px;
+  height: 100px;
+}
+
+@media (max-width: 1100px) {
+  .art {
+    height: 250px;
+  }
+
+  .art > img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+    .navbar {
+        background-color: #edf8b1;
+    }
+
+    #contact {
+      height: 700px;
+    }
+
+    .clickedText {
+      height: 370px;
+    }
+}
+
+@media (max-width: 545px) {
+  .devimg {
+    height: 250px;
+  }
+}
+
+@media (max-width: 490px) {
+
+  .devimg {
+    height: 200px;
+  }
+
+  .clickedText {
+    height: 450px;
+  }
+
+
+  footer > .container > .row {
+    padding-top: 10px;
+
+  }
+
+}
