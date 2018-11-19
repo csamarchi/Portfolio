@@ -16,7 +16,7 @@ header,
 }
 
 h1, h5 {
-  color: black;
+  color: #edf8b1;
 }
 
 .nav-link {
@@ -65,7 +65,7 @@ section {
 
 #portfolioText {
   margin: 40px auto;
-  color: black;
+  color: #edf8b1;
   position: relative;
   top: 50%;
   transform: translateY(-80%);
