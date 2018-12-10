@@ -52,3 +52,12 @@ $('#proj5').on('click', (event) => {
   $('.showText').find('#p5-txt').addClass('clickedText');
   $('.clickedText').show();
 });
+
+$('#proj6').on('click', (event) => {
+  $('.clicked-dev-img').removeClass('clicked-dev-img');
+  $(event.currentTarget).addClass('clicked-dev-img');
+  $('.clickedText').hide();
+  $('.clickedText').removeClass('clickedText');
+  $('.showText').find('#p6-txt').addClass('clickedText');
+  $('.clickedText').show();
+});

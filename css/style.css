@@ -75,9 +75,19 @@ section {
 }
 
 .row {
-  margin: 10px auto;
+  padding: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
 }
 
+
+.wrapper {
+  display: inline-flex;
+flex-wrap: wrap;
+padding: 10px;
+justify-content: space-around;
+}
 
 .dev-img {
   background-attachment: fixed;
@@ -127,6 +137,12 @@ section {
   margin: 0;
   background-color: #6d9eeb;
   height: 200px;
+}
+
+.skills {
+  margin: 0;
+  background-color: #6d9eeb;
+  height: 400px;
 }
 
 #contact {
