@@ -6,6 +6,45 @@ header,
     height: 100%;
 }
 
+body {
+  background-color: #474642;
+  color: white;
+}
+
+footer {
+  background-color: #6d9eeb;
+  padding: 10px;
+  color: white;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactSpace {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footContainer {
+  background-color: #474642;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 800px;
+  align-items: center;
+}
+
+form {
+  color: black;
+}
+
+input {
+  border-bottom: 1px solid dimgray;
+}
+
 #welcome{
   width: 100%;
   height: 100%;
@@ -16,7 +55,20 @@ header,
 }
 
 h1, h5 {
-  color: #edf8b1;
+  color: #474642;
+}
+
+.aboutDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
 }
 
 .nav-link {
@@ -32,14 +84,14 @@ h1, h5 {
 }
 
 .top-nav-collapse {
-    background-color: #edf8b1;
+    background-color: #474642;
     opacity: 0.9;
 }
 
 .containsWelcome {
   position: absolute;
   padding: 20px;
-  color: #edf8b1;
+  color: #474642;
   left: 0;
   width: 100%;
   text-align: center;
@@ -64,7 +116,7 @@ section {
 
 #portfolioText {
   margin: 40px auto;
-  color: #edf8b1;
+  color: #474642;
   position: relative;
   top: 50%;
   transform: translateY(-80%);
@@ -92,7 +144,7 @@ justify-content: space-around;
 .dev-img {
   background-attachment: fixed;
   background-position: center;
-  height: 150px;
+  height: 200px;
   background-size: auto 50%;
   margin: auto;
 }
@@ -169,7 +221,7 @@ footer > .container > .row {
 
 input, textarea {
   margin: 0 0 10px 0;
-  color: #edf8b1;
+  color: #474642;
 }
 
 textarea {
@@ -189,7 +241,7 @@ textarea {
 
 @media only screen and (max-width: 770px) {
     .navbar {
-        background-color: #edf8b1;
+        background-color: #474642;
     }
 
     #contact {

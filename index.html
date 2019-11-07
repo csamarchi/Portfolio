@@ -43,6 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Projects</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactSpace">Contact</a>
+                </li>
             </ul>
         </div>
       </nav>
@@ -67,12 +70,15 @@
       <section id="about" class="container wow fadeIn">
         <h2 class=" text-center">About Me</h2>
       </section>
-
       <section class="container wow fadeIn">
-        <p>My name is Christine Samarchi. I'm a full stack web developer based in Austin, TX. Ever since I was little,
-          I always enjoyed making things for people to admire. My goal is to gain as much experience in the tech world
-          and I would love to make people's dreams come to life through web design. I'm currently looking for my next
-          project and would love to hear from any like-minded people.
+        <div class="aboutDiv">
+          <img src="img/sunset.jpg" class="img-responsive" alt="">
+          <div class="aboutText">
+            <p>Passionate for creativity and building beautiful things through problem solving and web development.</p>
+            <p>Current Mission: learn about the world of development while meeting interesting people along the way.</p>
+            <p>I love...</p>
+          </div>
+        </div>
       </section>
 
 
@@ -86,34 +92,34 @@
       <section class="container">
   <!-- dev img divs -->
         <div class="row">
-          <div class="view col-md-2 hm-black-light dev-img wow flipInX clicked-dev-img" id="proj1" style="background-image: url('img/black_jack.png');">
-            <div class="mask flex-center">
-              <h3 class="dev-text">BlackJack</h3>
-            </div>
-          </div>
-
-          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj2" style="background-image: url('img/homesearch.png');">
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX clicked-dev-img" id="proj1" style="background-image: url('img/homesearch.png');">
             <div class="mask flex-center">
               <h3 class="dev-text">GrubList</h3>
             </div>
           </div>
 
-          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj3" style="background-image: url('img/pie_chart.png'); ">
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj2" style="background-image: url('img/login_screenshot.png');">
+            <div class="mask flex-center">
+              <h3 class="dev-text">GroceryList</h3>
+            </div>
+          </div>
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj3" style="background-image: url('img/black_jack.png'); ">
+            <div class="mask flex-center">
+              <h3 class="dev-text">JackBlack BlackJack</h3>
+            </div>
+          </div>
+
+
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj4" style="background-image: url('img/pie_chart.png'); ">
             <div class="mask flex-center">
               <h3 class="dev-text">The People's Choice</h3>
             </div>
           </div>
 
-
-          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj4" style="background-image: url('img/colorado_byte_home.png'); ">
+          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj5" style="background-image: url('img/colorado_byte_home.png'); ">
             <div class="mask flex-center">
-              <h3 class="dev-text">Colorado Byte</h3>
-            </div>
-          </div>
-
-          <div class="view col-md-2 hm-black-light dev-img wow flipInX" id="proj5" style="background-image: url('img/paramount_homepage.png'); ">
-            <div class="mask flex-center">
-              <h3 class="dev-text"> Paramount Utilies</h3>
+              <h3 class="dev-text"> Colorado Byte</h3>
             </div>
           </div>
 
@@ -123,34 +129,43 @@
   <!-- dev img texts -->
         <div class="showText">
           <div class="container clickedText" id="p1-txt">
-            <h3>BlackJack</h3>
+            <h3>GrubList</h3>
+            <p><strong>Technologies:</strong> Node.js, Express, React, MongoDB, JavaScript, HTML, CSS, Bootstrap</p>
+            <p><strong>Deployment:</strong> Heroku </p>
+            <p>A multi-page web app that allows users to search restaurants in Austin, TX, see their detailed info, and add them to their own personal list. MERN Stack application that leverages Zomato's API. </p>
+            <a href="https://restaurant-playlist.herokuapp.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/csamarchi/Restaraunt-Frontend" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
+          </div>
+
+          <div class="container" id="p2-txt">
+            <h3>GroceryList</h3>
+            <p><strong>Technologies:</strong> Node.js, Express, React, MongoDB, JavaScript, HTML, CSS, MaterialUi</p>
+            <p><strong>Deployment:</strong> Google Cloud</p>
+            <p>Full stack web application made for friends or teams to share digital grocery lists with a feature that allows users to collaborate and add, edit, and remove items in real time. </p>
+            <a href="http://grocerylist-256317.appspot.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
+            <a href="https://github.com/csamarchi/grocery_list_project" target="_blank"><button type="button" class="btn btn-primary">View Front End GitHub</button></a>
+            <a href="https://github.com/mmirzabaig/groceryListBackend" target="_blank"><button type="button" class="btn btn-primary">View Back End GitHub</button></a>
+          </div>
+
+          <div class="container" id="p3-txt">
+            <h3>JackBlack BlackJack</h3>
             <p><strong>Technologies:</strong> HTML, CSS, JavaScript, jQuery</p>
-            <p><strong>Deployment:</strong> GitHub Pages</p>
-            <p>A single-player BlackJack game, designed and created by myself. </p>
+            <p><strong>Deployment:</strong> Surge </p>
+            <p>A single-player BlackJack game, designed by myself and inspired by Jack Black.</p>
             <a href="http://chivalrous-mask.surge.sh/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
             <a href="https://github.com/csamarchi/Blackjack-game" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
           </div>
 
-          <div class="container" id="p2-txt">
-            <h3>GrubList</h3>
-            <p><strong>Technologies:</strong> Node.js, Express, React, MongoDB, JavaScript, HTML, CSS, Bootstrap</p>
-            <p><strong>Deployment:</strong> TBD</p>
-            <p>A multi-page web app that allows users to search restaurants in Austin, TX, see their detailed info, and add them to their own personal list. The backend utilizes Mongoose and the frontend uses React.</p>
-            <a href="https://github.com/csamarchi/Restaraunt-Frontend" target="_blank"><button type="button" class="btn btn-primary">View Frontend GitHub</button></a>
-            <a href="https://github.com/csamarchi/Restaraunt-Backend" target="_blank"><button type="button" class="btn btn-primary">View Backend GitHub</button></a>
-
-          </div>
-
-          <div class="container" id="p3-txt">
+          <div class="container" id="p4-txt">
             <h3>The People's Choice</h3>
             <p><strong>Technologies:</strong> HTML, CSS, React, Semantic-Ui</p>
-            <p><strong>Deployment:</strong> Heroku</p>
+            <p><strong>Deployment:</strong> TBD</p>
             <p>A web application that allows users to vote in numerous polls and surveys for various pop culture categories. The user can also make their own poll for others to vote in.</p>
             <a href="https://github.com/csamarchi/the_peoples_choice" target="_blank"><button type="button" class="btn btn-primary">View Frontend GitHub</button></a>
             <a href="https://github.com/csamarchi/backend_pie_chart" target="_blank"><button type="button" class="btn btn-primary">View Backend GitHub</button></a>
           </div>
 
-          <div class="container" id="p4-txt">
+          <div class="container" id="p5-txt">
             <h3>Colorado Byte</h3>
             <p><strong>Technologies:</strong> HTML, CSS, React, React-Bootstrap</p>
             <p><strong>Deployment:</strong> Already existing website</p>
@@ -159,19 +174,29 @@
             <a href="https://github.com/csamarchi/colorado-byte-sidework" target="_blank"><button type="button" class="btn btn-primary">View Frontend GitHub</button></a>
           </div>
 
-          <div class="container" id="p5-txt">
-            <h3>Paramount Utilies</h3>
-            <p><strong>Technologies:</strong> HTML, CSS, React, React-Bootstrap</p>
-            <p><strong>Deployment:</strong> Already existing website</p>
-            <p>A website for the company Paramount Utilies. I was hired to refacter all existing code from Jquery to React and styled to match existing website.</p>
-            <a href="https://paramountutility.com/" target="_blank"><button type="button" class="btn btn-dark">View Live Site</button></a>
-            <a href="https://github.com/csamarchi/paramount-utility-sidework" target="_blank"><button type="button" class="btn btn-primary">View GitHub</button></a>
-          </div>
-
         </div>
       </section>
-
+<!-- DEVELOPMENT SECTION -->
+      <!-- <section id="portfolio" class="view">
+        <div id="Development">
+          <h2 id="portfolioText" class=" text-center wow fadeIn">My Projects</h2>
+        </div>
+      </section> -->
     </main>
+    <footer id="contactSpace">
+      <div class="footContainer">
+        <h2 class="text-center" id="contactMe">Contact Me</h2>
+        <div class="contactForm">
+          <form action="https://formspree.io/csamarchi@gmail.com" target="_blank" method="POST">
+            <input id="name" type="text" name="name" placeholder="name" required>
+            <input id="email" type="email" name="_replyto" placeholder="youremail@example.com" required>
+            <textarea id="message" name="message" placeholder="Tell me about your project idea." required></textarea>
+            <input type="submit" class="btn btn-dark" value="Send">
+          </form>
+        </div>
+      </div>
+    </footer>
+
 
     <!-- SCRIPTS -->
 
